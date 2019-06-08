@@ -6,14 +6,14 @@ export default class Services extends Component {
         services:
             [
                 {
-                    icon: <FaCocktail/>,
-                    title: "free Cocktails",
+                    icon: <FaCocktail />,
+                    title: "Free Cocktails",
                     info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ne infantes quidem possin"
 
 
                 },
                 {
-                    icon: <FaHiking/>,
+                    icon: <FaHiking />,
                     title: "Endless Hiking",
                     info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ne infantes quidem possin"
 
@@ -47,19 +47,19 @@ export default class Services extends Component {
                             <h6>{item.title}</h6>
                             <p>{item.info}</p>
                         </article>
-                            }) 
-                          }
+                    })
+                    }
                 </div>
-       
+
 
             </section>
-                
-            
-                )
-            }
-        }
-        
-        
-        
-        
-        
+
+
+        )
+    }
+}
+
+
+
+
+
